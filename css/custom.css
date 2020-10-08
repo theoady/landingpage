@@ -1,0 +1,37 @@
+.btn-primary {
+    background: #FF9900;
+    border: 0;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background: #ab6906;
+    border: 0;
+}
+
+.btn-secondary {
+    background: none;
+    border: 1 ;
+    border-color: #FF9900;
+    padding: 15px 40px 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #FF9900;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 0;
+}
+
+.hero h1 {
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+.hero p {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
