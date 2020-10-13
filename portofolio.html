@@ -1,198 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portofolio | THEDYDESIGN</title>
-    <link rel="stylesheet" href="portofolio.css" />
-    <link rel="stylesheet" href="style.css" />
-    <script src="https://unpkg.com/panzoom@8.7.3/dist/panzoom.min.js"></script>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.4/TweenMax.min.js"></script>
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
-        rel="stylesheet">
 
-    <!-- terminal effect -->
-    <script src="t.min.js"></script>
-
-    <!-- for on scroll animations -->
-    <link rel="stylesheet" href="animate.css">
-    <script src="wow.min.js"></script>
-
+      <title>Portofolio | THEDYDESIGN</title>
+   
+      <link rel="stylesheet" href="style.css" />
+      <!-- <script src="https://unpkg.com/panzoom@8.7.3/dist/panzoom.min.js"></script> -->
+  
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+      <!-- google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:100,100i,300,300i,400,400i,500,500i,700,700i"
+          rel="stylesheet">
+  
+  
+  <meta charset="UTF-8">
+ 
+  <link rel="stylesheet" href="master.css">
+  <link href="https://fonts.googleapis.com/css?family=Smythe" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+  <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.0.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
 </head>
-
 <body>
-    <div class="wrapper">
-
-        <!--------------- navbar starts here --------------->
-        <nav>
-            <span id="brand">
-                <a href="index.html">THEDYDESIGN</a>
-            </span>
-
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-               
-                <li><a href="portofolio.html">Portofolio</a></li>
-                <li><a href="about.html">Contact</a></li>
-
-            </ul>
-
-            <div id="toggle">
-                <div class="span">menu</div>
+     
+      <div class="container">
+           
+            <nav>
+                  <span id="brand">
+                      <a href="index.html">THEDYDESIGN</a>
+                  </span>
+      
+                  <ul id="menu">
+                      <li><a href="index.html">Home</a></li>
+                     
+                              <li><a href="portofolio.html">Portofolio</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+      
+                  </ul>
+      
+                  <div id="toggle">
+                      <div class="span">menu</div>
+                  </div>
+      
+              </nav>
+      
+              <div id="resize">
+                        <div class="close-btn"><i class="fa fa-times"></i></div>
+      
+                  <ul id="menu">
+                      <li><a href="index.html">Home</a></li>
+                     
+                      <li><a href="portofolio.html">Portofolio</a></li>
+                      <li><a href="contact.html">Contact</a></li>
+      
+                  </ul>
+              </div>
+           
+            <div class="title">
+                 Portofolio
             </div>
-
-        </nav>
-
-        <div id="resize">
-                  <div class="close-btn"><i class="fa fa-times"></i></div>
-
-            <ul id="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portofolio.html">Portofolio</a></li>
-                <li><a href="about.html">Contact</a></li>
-
-            </ul>
-        </div>
-        <div class="header">
-            Explore projects by dragging canvas
-        </div>
-        <div class="container">
-            <div class="row">
-            <article class="img-banner">
-
-                <div class="img-wrapper">
-                    <div class="img-inner">
-                        <img class="img-holder" src="/images/featuring.png" alt="" />
-                    </div>
-                </div>
-            </article>
+            <div class="tagline-portofolio">
+                  Let's Explore Project
             </div>
-            <div class="row">
-                <div class="row">
-                    <article class="img">
-
-                        <div class="img-wrapper">
-                            <div class="img-inner">
-                                <img class="img-holder" src="/images/portofolio/1.png" alt="" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="row">
-                    <article class="img">
-                        <div class="img-wrapper">
-                            <div class="img-inner">
-                                <img class="img-holder" src="/images/portofolio/2.png" alt="" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-                <div class="row">
-                    <article class="img">
-                        <div class="img-wrapper">
-                            <div class="img-inner">
-                                <img class="img-holder" src="/images/portofolio/3.png" alt="" />
-                            </div>
-                        </div>
-                    </article>
-                </div>
-               
+            <div class="morewine">
+                  <button>Open Up</button>
             </div>
-
-            <div class="row">
-                <div class="row">
-                    <article class="img">
-
-                        <div class="img-wrapper">
-                            <div class="img-inner">
-                                <img class="img-holder" src="/images/portofolio/4.png" alt="" />
-                            </div>
+      </div>
+      <div class="wines">
+            <div id="wrap">
+                  <a href="#" class="block">
+                        <div class="product one">
+                              <img style="height: 75%;" src="/images/portofolio/1.png" alt="">
+                              <div class="txt">
+                                    <h3>Ticket-IN</h3>
+                                    <p>Flutter Framework</p>
+                                    <!-- <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div> -->
+                              </div>
                         </div>
-                    </article>
-                </div>
-                <div class="row">
-                    <article class="img">
-                        <div class="img-wrapper">
-                            <div class="img-inner">
-                                <img class="img-holder" src="/images/portofolio/5.png" alt="" />
-                            </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product two">
+                              <img src="/images/portofolio/2.png" alt="">
+                              <div class="txt">
+                                    <h3>Ticket-IN</h3>
+                                    <p>Flutter Framework</p>
+                                    <!-- <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div> -->
+                              </div>
                         </div>
-                    </article>
-                </div>
-                <div class="row">
-                    <article class="img">
-                        <div class="img-wrapper">
-                            <div class="img-inner">
-                                <img class="img-holder" src="/images/portofolio/6.png" alt="" />
-                            </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product three">
+                              <img src="/images/portofolio/3.png" alt="">
+                              <div class="txt">
+                                    <h3>Ticket-IN</h3>
+                                    <p>Flutter Framework</p>
+                                    <!-- <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div> -->
+                              </div>
                         </div>
-                    </article>
-                </div>
-                
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product four">
+                              <img src="/images/portofolio/4.png" alt="">
+                              <div class="txt">
+                                    <h3>Ticket-IN</h3>
+                                    <p>Flutter Framework</p>
+                                    <!-- <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div> -->
+                              </div>
+                        </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product four">
+                              <img src="/images/portofolio/5.png" alt="">
+                              <div class="txt">
+                                    <h3>Ticket-IN</h3>
+                                    <p>Flutter Framework</p>
+                                    <!-- <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div> -->
+                              </div>
+                        </div>
+                  </a>
+                  <a href="#" class="block">
+                        <div class="product four">
+                              <img src="/images/portofolio/6.png" alt="">
+                              <div class="txt">
+                                    <h3>Ticket-IN</h3>
+                                    <p>Flutter Framework</p>
+                                    <!-- <div class="add">
+                                          <button>BUY NOW</button>
+                                    </div> -->
+                              </div>
+                        </div>
+                  </a>
             </div>
+            <a class="close-btn">close</a>
+      </div>
 
-        </div>
+      <script type="text/javascript">
 
+      $(document).ready(function() {
+            var docWidth = $('body').width(),
+            $wrap = $('#wrap'),
+            $images = $('#wrap .block'),
+            slidesWidth = $wrap.width();
 
-        <script>
-            var element = document.querySelector(".container");
+            $(window).on('resize', function() {
+                  docWidth = $('body').width();
+                  slidesWidth = $wrap.width();
+            })
 
-            panzoom(element, {
-                minZoom: 1,
-                maxZoom: 1
+            $(document).mousemove(function(e) {
+                  var mouseX = e.pageX,
+                  offset = mouseX / docWidth * slidesWidth - mouseX / 2;
+
+                  $images.css({
+                        '-wrbkit-transform' : 'translate3d(' + -offset + 'px,0,0)',
+                        'transform' : 'translate3d(' + -offset + 'px,0,0)'
+                  });
             });
-        </script>
-        <script>
-            animteHover();
+      })
 
-            function animteHover() {
-                var $img = $(".img");
+      var t1 = new TimelineMax({paused: true});
 
-                $img.mousemove(function (e) {
-                    var xPos = $(this).data("xPos");
-                    var yPos = $(this).data("yPos");
-                    var mouseX = e.pageX;
-                    var mouseY = e.pageY;
-                    var left = mouseX - xPos;
-                    var top = mouseY - yPos;
-                    var origin = "center center -300";
-                    var xPerc =
-                        ((left - $(this).data("itemWidth") / 2) / $(this).data("itemWidth")) * 200;
-                    var yPerc =
-                        ((top - $(this).data("itemHeight") / 2) / $(this).data("itemHeight")) * 200;
+      TweenMax.from(".logo", 0.5, {
+            opacity: 0,
+            y: 10,
+            delay: 1
+      });
 
-                    TweenMax.to($(this).data("imgOuter"), 3, {
-                        rotationX: 0.1 * yPerc,
-                        rotationY: -0.1 * xPerc,
-                        transformOrigin: origin,
-                        ease: Expo.easeOut,
-                    });
-                });
+      TweenMax.from(".menu", 0.5, {
+            opacity: 0,
+            y: 10,
+            delay: 1.2
+      });
 
-                $img.each(function () {
-                    $(this).data("xPos", $(this).offset().left);
-                    $(this).data("yPos", $(this).offset().top);
-                    $(this).data("itemWidth", $(this).width());
-                    $(this).data("itemHeight", $(this).height());
-                    $(this).data("imgOuter", $(this).find(".img-inner"));
-                });
+      TweenMax.from(".title", 3, {
+            opacity: 0,
+            delay: 1.4
+      });
 
-                $img.on("mouseleave", function () {
-                    TweenMax.to($(this).data("imgOuter"), 3, {
-                        rotationX: 0,
-                        rotationY: 0,
-                        transformOrigin: origin,
-                        ease: Expo.easeOut,
-                    });
-                });
-            }
-        </script>
+      TweenMax.from(".tagline-portofolio", 3, {
+            opacity: 0,
+            delay: 1.6
+      });
+
+      TweenMax.from(".morewine", 0.5, {
+            opacity: 0,
+            y: 4,
+            delay: 1.8
+      });
+
+      t1.to(".wines", 1, {
+            autoAlpha: 1
+      });
+
+      t1.from(".one", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.1
+      },"-=1");
+
+      t1.from(".two", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.3
+      },"-=1");
+
+      t1.from(".three", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.5
+      },"-=1");
+
+      t1.from(".four", 0.5, {
+            opacity: 0,
+            y: 20,
+            delay: 0.7
+      },"-=1");
+
+      t1.reverse();
+      $(document).on("click", ".morewine", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", "a", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      $(document).on("click", ".close-btn a", function() {
+            t1.reversed(!t1.reversed());
+      });
+
+      </script>
 </body>
-
 </html>
